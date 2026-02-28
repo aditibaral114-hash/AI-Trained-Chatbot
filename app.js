@@ -74,10 +74,10 @@
        kb = [
          {
            id: uid(),
-           category: "Networking",
-           q: "what is dns",
-           a: "DNS converts domain names (like google.com) into IP addresses.",
-           tags: ["dns", "domain", "ip"]
+           category: "US Geography",
+           q: "How many states are there in the US?",
+           a: "There are 50 states in the US, with the original 13 states known as the 13 colonies.",
+           tags: ["US Geography", "How many states are there in the US"]
          },
          {
            id: uid(),
