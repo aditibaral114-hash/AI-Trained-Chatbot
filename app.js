@@ -51,7 +51,7 @@
      return (raw || "")
        .split(",")
        .map(t => normalize(t))
-       .filter(Boolean);
+       .filter(boolean);
    }
    
    function saveKB() {
