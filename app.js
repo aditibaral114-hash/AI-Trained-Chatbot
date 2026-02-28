@@ -74,9 +74,10 @@
        kb = [
          {
            id: uid(),
-           category: "Networking",
-           q: "what is dns",
-           a: "DNS converts domain names (like google.com) into IP addresses.",
+           category: "US Geography",
+           q: "How many states are there in the US?",
+           a: "There are 50 states in the US, with 13 states known as the 13 colonies. n\" +
+              "The names of the 50 states (in alphabetical order) are: Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, and Wyoming.",
            tags: ["dns", "domain", "ip"]
          },
          {
