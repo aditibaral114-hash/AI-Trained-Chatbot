@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ai Training Model</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="app">
+            <header class="topbar">
+                <div>
+                    <h1>My Trained Chatbot</h1>
+                    <p class="subtitle">Build your own dataset.
+                        The bot learns from your entries.
+                    </p>
+                </div>
+                <div class="topbar-actions">
+                    <button id="adminBtn">Admin Panel</button>
+                    <button id="resetBtn" class="danger">Reset Data</button>
+                </div>
+            </header>
+
+            <main class="grid">
+                <section class="card">
+                    <div class="card-header">
+                        <h2>Chat</h2>
+                        <div class="small">
+                            <span id="kbCount">0</span> Q/A items
+                        </div>
+                    </div>
+
+                    <div id="chatWindow" class="chat-window"></div>
+
+                    <div class="chat-input">
+                        <input id="userInput" type="text" placeholder="Ask a question" />
+                        <button id="sendBtn">Send</button>
+                    </div>
+
+                    <div class="tips">
+                        Try any question you want. Read the bot's answer and learn from it.
+                    </div>
+                </section>
+
+                <!--About / Instructions -->
+                <section class="card">
+                    <div class="card-header">
+                        <h2>How it "Learns"</h2>
+                    </div>
+                    <div class="content"></div>
+                    <ol>
+                        <li>You add questions + answers in the admin panel.</li>
+                        <li>The bot compares your question to saved questions using word overlap</li>
+                        <li>It returns the closest match with a confidence score.</li>
+                        <li>More data = smarter bot. Better Wording = better matching</li>
+                    </ol>
+                </section>
+            </main>
+        </div>
+
+        <!--Admin Modal-->
+        <div id="adminModal" class="modal hidden" aria-hidden="true">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Admin Panel (Train the bot)</h2>
+                    <button id="closeAdminBtn" class="icon-btn" aria-label="Close">x</button>
+                </div>
+
+                <div class="modal-toolbar">
+                    <input id="searchInput" type="text" placeholder="Search by question, answer, category/tags.." />
+                    <select id="categoryFilter">
+                        <option value="">All Categories</option>
+                    </select>
+                    <button id="exportBtn">Export JSON</button>
+                    <label class="file-btn">
+                        Import JSON
+                        <input id="importInput" type="file" accept="application/json" />
+                    </label>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-card">
+                        <h3 id="formTitle">Add New Q/A</h3>
+
+                        <label>Category</label>
+                        <input id="categoryInput" type="text" placeholder="Networking / Cybersecurity / Fashion / Python" />
+
+                        <label>Question (how a user might ask)</label>
+                        <input id="questionInput" type="text" placeholder="What is DNS?" />
+
+                        <label>Answer</label>
+                        <textarea id="answerInput" rows="4" placeholder="DNS converts domain name to ip address"></textarea>
+
+                        <label>Tags (comma separated)</label>
+                        <input id="tagsInput" type="text" placeholder="dns, domain, ip" />
+
+                        <div class="form-actions">
+                            <button id="saveBtn">Save</button>
+                            <button id="cancelEditBtn" class="secondary hidden">Cancel Edit</button>
+                        </div>
+
+                        <div class="list-card">
+                            <h3>Knowledge Base</h3>
+                            <div id="kbList" class="kb-list"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
