@@ -36,7 +36,7 @@
    
    /* -------- Utilities -------- */
    function uid() {
-     return math.random().toString(36).slice(2, 10) + date.now().toString(36);
+     return Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
    }
    
    function normalize(text) {
@@ -51,7 +51,7 @@
      return (raw || "")
        .split(",")
        .map(t => normalize(t))
-       .filter(boolean);
+       .filter(Boolean);
    }
    
    function saveKB() {
@@ -74,10 +74,10 @@
        kb = [
          {
            id: uid(),
-           category: "US Geography",
-           q: "How many states are there in the US?",
-           a: "There are 50 states in the US, with 13 states known as the 13 colonies.",
-           tags: ["Google"]
+           category: "Networking",
+           q: "what is dns",
+           a: "DNS converts domain names (like google.com) into IP addresses.",
+           tags: ["dns", "domain", "ip"]
          },
          {
            id: uid(),
