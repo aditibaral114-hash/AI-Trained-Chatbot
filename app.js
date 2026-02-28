@@ -77,7 +77,7 @@
            category: "US Geography",
            q: "How many states are there in the US?",
            a: "There are 50 states in the US, with 13 states known as the 13 colonies.",
-           tags: ["dns", "domain", "ip"]
+           tags: ["Google"]
          },
          {
            id: uid(),
