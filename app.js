@@ -81,17 +81,17 @@
          },
          {
            id: uid(),
-           category: "Networking",
-           q: "what is ping",
-           a: "Ping tests connectivity by sending ICMP echo requests and measuring response time.",
+           category: "World Geography",
+           q: "what is the largest volcano on Earth?",
+           a: "The largest volcano on Earth is located in Hawaii, which is a state in the US.",
            tags: ["ping", "icmp", "network"]
          },
          {
            id: uid(),
-           category: "Web",
-           q: "what is an api",
-           a: "An API is a way for programs to communicate and share data or functions.",
-           tags: ["api", "json", "http"]
+           category: "Fashion",
+           q: "How can you style a white shirt?",
+           a: "You can style it by tucking it into denim, wearing it under a blazer, or pair with a skirt and dainty jewerly for versatile looks.",
+           tags: ["Fashion", "How can you style a white shirt"]
          }
        ];
        saveKB();
