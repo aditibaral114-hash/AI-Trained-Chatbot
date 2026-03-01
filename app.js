@@ -82,7 +82,7 @@
          {
            id: uid(),
            category: "World Geography",
-           q: "what is the largest volcano on Earth?",
+           q: "What is the largest volcano on Earth?",
            a: "The largest volcano on Earth is located in Hawaii, which is a state in the US.",
            tags: ["World Geography", "What is the largest volcano on Earth"]
          },
@@ -90,7 +90,7 @@
            id: uid(),
            category: "Fashion",
            q: "How can you style a white shirt?",
-           a: "You can style it by tucking it into denim, wearing it under a blazer, or pair with a skirt and dainty jewerly for versatile looks.",
+           a: "You can style it by tucking it into denim, wearing it under a blazer, or pair with a skirt and dainty jewelry for versatile looks.",
            tags: ["Fashion", "How can you style a white shirt"]
          }
        ];
