@@ -84,7 +84,7 @@
            category: "World Geography",
            q: "what is the largest volcano on Earth?",
            a: "The largest volcano on Earth is located in Hawaii, which is a state in the US.",
-           tags: ["ping", "icmp", "network"]
+           tags: ["World Geography", "What is the largest volcano on Earth"]
          },
          {
            id: uid(),
