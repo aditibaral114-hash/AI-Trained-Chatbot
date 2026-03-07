@@ -99,7 +99,14 @@
            q: "What are the most crucial key performance indicators (KPIs) when being a banker?",
            a: "It is important to focus on customer service ratings, product referrals, and transaction accuracy.",
            tags: ["New Job As Banker", "What are the most crucial key performance indicators (KPIs) when being a banker"]
-         }
+        },
+        {
+          id: uid(),
+          category: "hi",
+          q: "hi",
+          a: "Hello! It is a pleasure to connect with you today. I hope you are having a wonderful day so far. As an AI, I am fully prepared to assist you with a wide range of tasks, from drafting content and brainstorming ideas to providing information on virtually any topic you can think of. What is on your mind? If you are looking to start a creative writing project, I can help generate plot points, character sketches, or even draft full scenes. I am capable of mimicking various writing styles and tones, so feel free to provide any specific guidelines you have in mind to get the best possible result. Just let me know the genre or theme. Alternatively, if you are working on something more analytical, I can summarize long documents, create outlines, or help organize complex information into a clear format. I can assist with coding, debugging, or explaining difficult concepts in simple terms. Simply paste the text or code here, and I will get right on it. For those interested in brainstorming, I can provide a list of ideas for marketing campaigns, blog post topics, or gift ideas. I excel at taking a single, small idea and expanding it into a detailed, actionable plan. We can iterate through several possibilities until we find the perfect one for your needs. Whatever the task may be, my goal is to make this process efficient and enjoyable for you. I am ready when you are, so please feel free to share your first prompt, question, or topic. How would you like to proceed?",
+          tags: ["hi"]
+        }
        ];
        saveKB();
      } else {
