@@ -92,6 +92,13 @@
            q: "How can you style a white shirt?",
            a: "You can style it by tucking it into denim, wearing it under a blazer, or pair with a skirt and dainty jewelry for versatile looks.",
            tags: ["Fashion", "How can you style a white shirt"]
+         },
+         {
+           id: uid(),
+           category: "NewJobAsBanker",
+           q: "What are the most crucial key performance indicators (KPIs) when being a banker?",
+           a: "It is important to focus on customer service ratings, product referrals, and transaction accuracy.",
+           tags: ["New Job As Banker", "What are the most crucial key performance indicators (KPIs) when being a banker"]
          }
        ];
        saveKB();
