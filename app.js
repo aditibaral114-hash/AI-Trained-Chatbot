@@ -112,6 +112,7 @@
           category: "MakeFoodOrDrink",
           q: "How can I make green smoothies that can make me bright and beautiful?",
           a: "This Radiant Skin Green Smoothie is designed to make you feel bright and beautiful by combining nutrient-dense greens, hydrating coconut water, and skin-loving fruits. The recipe is packed with vitamins A, C, and K, which help to repair skin, reduce inflammation, and promote a natural, healthy glow. Ingredients: 1 cup Almond milk, Lettuce / Spinack / Kale , 1 mango, 1 frozen Banana, 1 / 2 avocado, ginger, dates, protien powder. Make sure you have a high-power blender else the recipe won't work.",
+          tags: ["MakeFoodOrDrink", "How can I make green smoothies that can make me bright and beautiful"]
 
         }
        ];
